@@ -428,7 +428,7 @@ class Zend_Loader_PluginLoader implements Zend_Loader_PluginLoader_Interface
      * Specify a path to a file that will add include_once statements for each
      * plugin class loaded. This is an opt-in feature for performance purposes.
      *
-     * @param  string $file
+     * @param  string|null $file
      * @return void
      * @throws Zend_Loader_PluginLoader_Exception if file is not writeable or path does not exist
      */

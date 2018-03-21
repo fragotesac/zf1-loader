@@ -57,6 +57,11 @@ class Zend_Loader_Autoloader_Resource implements Zend_Loader_Autoloader_Interfac
     protected $_resourceTypes = array();
 
     /**
+     * @var array
+     */
+    protected $_resources = array();
+
+    /**
      * Constructor
      *
      * @param  array|Zend_Config $options Configuration options for resource autoloader

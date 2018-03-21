@@ -20,13 +20,6 @@
  * @version    $Id $
  */
 
-/**
- * @see Zend_Loader
- */
-require_once 'Zend/Loader.php';
-
-
-
 
 /**
  * Static methods for loading classes and files.

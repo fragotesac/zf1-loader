@@ -108,7 +108,7 @@ class Zend_Loader_ClassMapAutoloader implements Zend_Loader_SplAutoloader
     /**
      * Register many autoload maps at once
      *
-     * @param  array $locations
+     * @param  array|Traversable $locations
      * @return Zend_Loader_ClassMapAutoloader
      */
     public function registerAutoloadMaps($locations)

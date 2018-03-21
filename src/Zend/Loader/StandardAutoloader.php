@@ -165,7 +165,7 @@ class Zend_Loader_StandardAutoloader implements Zend_Loader_SplAutoloader
     /**
      * Register many namespace/directory pairs at once
      *
-     * @param  array $namespaces
+     * @param  array|Traversable $namespaces
      * @return Zend_Loader_StandardAutoloader
      */
     public function registerNamespaces($namespaces)
@@ -197,7 +197,7 @@ class Zend_Loader_StandardAutoloader implements Zend_Loader_SplAutoloader
     /**
      * Register many namespace/directory pairs at once
      *
-     * @param  array $prefixes
+     * @param  array|Traversable $prefixes
      * @return Zend_Loader_StandardAutoloader
      */
     public function registerPrefixes($prefixes)

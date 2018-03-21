@@ -21,8 +21,15 @@
  */
 
 
-Zend_Loader::registerAutoload();
 
-set_include_path(get_include_path() . PATH_SEPARATOR . dirname(__FILE__) . '/_files');
 
-$parseError = new ParseError();
+/**
+ * @category   Zend
+ * @package    Zend_Loader
+ * @subpackage UnitTests
+ * @copyright  Copyright (c) 2005-2015 Zend Technologies USA Inc. (http://www.zend.com)
+ * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ */
+class ZfTest_CacheTestFile
+{
+}
